@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap');
+
+:root {
+    --gradient: linear-gradient(to right hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(229, 57%, 11%);
+    height: 100vh;
+}
+
+body {
+    background-image: url(Asset/bg-desktop.png);
+    background-repeat: no-repeat;
+    height: 345px;
+    width: 100%;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrapper {
+    position: absolute;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(-93px);
+    gap: 4%;
+}
+
+.first {
+    height: 165px;
+    width: 21%;
+    background-color: hsl(228, 56%, 26%);
+    box-shadow: 2px 2px 4px hsl(227, 60%, 17%);
+    position: absolute;
+    position: relative;
+    border-start-end-radius: 45%;
+    font-family: 'Raleway', sans-serif;
+    border-start-start-radius: 3%;
+    border-end-start-radius: 3%;
+    border-end-end-radius: 3%;
+    transform: translate(230px);
+}
+
+.icon_wrapper {
+    padding-left: 31px;
+    transform: translateY(30px);
+}
+
+.icon {
+    display: flex;
+    gap: 6%;
+    padding-top: 15px;
+}
+
+img[href='/Asset/logo.svg'] {
+    height: 40px;
+}
+
+.first_icon {
+    background-color: hsl(229, 57%, 11%);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    white-space: nowrap;
+    display: block;
+}
+
+.document {
+    height: 17px;
+    width: 16px;
+    display: inline-flex;
+    justify-content: center;
+    transform: translate(7px, 6px);
+}
+
+.second_icon {
+    background-color: hsl(229, 57%, 11%);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    white-space: nowrap;
+    display: block;
+}
+
+.folder {
+    height: 15px;
+    width: 19px;
+    display: inline-flex;
+    justify-content: center;
+    transform: translate(5.6px, 7px);
+}
+
+.third_icon {
+    background-color: hsl(229, 57%, 11%);
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    white-space: nowrap;
+    display: block;
+}
+
+.upload {
+    height: 13px;
+    width: 19px;
+    display: inline-flex;
+    justify-content: center;
+    transform: translate(5.9px, 6px);
+}
+
+.second {
+    height: 125px;
+    width: 31.2%;
+    background-color: hsl(228, 56%, 26%);
+    box-shadow: 2px 2px 4px hsl(227, 60%, 17%);
+    position: absolute;
+    position: relative;
+    border-radius: 5px;
+    transform: translate(130px, 30px);
+}
+
+.first_para {
+    Font-size: 14px;
+    font-weight: 400;
+    color: hsl(229, 7%, 55%);
+    margin-top: 20px;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 90%;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+
+.slider::-webkit-slider-runnable-track {
+    height: 10px;
+    background: hsl(229, 57%, 11%);
+    border-radius: 16px;
+}
+
+.slider::-moz-range-track {
+    height: 15px;
+    background: hsl(229, 57%, 11%);
+    border-radius: 16px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -207px 0 0 200px hsl(6, 100%, 80%);
+}
+
+.slider::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -207px 0 0 200px hsl(6, 100%, 80%);
+}
+
+input[type="range" i]:focus::-webkit-slider-thumb {
+    outline: 3px solid gray;
+    outline-offset: 0.005rem;
+}
+
+input[type="range" i]:focus::-moz-range-thumb {
+    outline: 3px solid gray;
+    outline-offset: 0.005rem;
+} 
+
+.content_wrap {
+    padding-top: 6px;
+}
+
+.span_wrapper {
+    display: flex;
+    white-space: nowrap;
+    gap: 310px;
+    margin-top: 13px;
+    padding-left: 25px;
+}
+
+.first_span {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.second_span {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(229, 7%, 55%);
+    font-family: 'Raleway';
+}
+
+.third_span {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(229, 7%, 55%);
+    font-family: 'Raleway';
+}
+
+.third_shape{
+    height: 55px;
+    width: 140px;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+    display: inline-block;
+    transform: translate(-199px, -70px);
+    margin-top: 60px;
+}
+
+.num{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.remain{
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    top: 11px;
+    left: 25px;
+}
+
+.read{
+    color: hsl(229, 7%, 55%);
+}
+
+.forth_shape{
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid transparent;
+    border-right: 19px solid white;
+    box-shadow: 3px 0.0001px 0.1px;
+    position: absolute;
+    transform: translate(120.9px, 9px);
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+        background: none;
+        width: 375px;
+        overflow: hidden;
+    }
+
+    html {
+        background-image: url(Asset/bg-mobile.png);
+        background-repeat: no-repeat;
+        width: 375px;
+    }
+
+    .wrapper {
+        display: block;
+        width: 375px;
+    }
+
+    .first {
+        transform: translate(30px, -100px);
+        height: 200px;
+        width: 300px;
+    }
+
+    .icon_wrapper {
+        padding-left: 40px;
+        margin-top: 10px;
+    }
+
+    img[src='/Asset/logo.svg'] {
+        margin-bottom: 10px;
+    }
+
+    .first_icon {
+        height: 39px;
+        width: 32px;
+    }
+
+    .document {
+        height: 23px;
+        width: 20px;
+    }
+
+    .second_icon {
+        height: 39px;
+        width: 32px;
+    }
+
+    .folder {
+        height: 23px;
+        width: 20px;
+    }
+    
+    .third_icon {
+        height: 39px;
+        width: 39px;
+    }
+
+    .upload {
+        height: 22px;
+        width: 25px;
+    }
+
+    .second {
+        transform: translate(30px, -90px);
+        height: 150px;
+        width: 300px;
+    }
+
+    .content_wrap {
+        padding-left: 10px;
+    }
+
+    .slider {
+        width: 230px;
+    }
+
+    .third_span {
+        transform: translate(-153px);
+    }
+
+    .third_shape {
+        transform: translate(100px, -180px);
+    }
+
+    .forth_shape {
+        display: none;
+    }
+}
